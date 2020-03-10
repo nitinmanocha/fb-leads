@@ -8,10 +8,10 @@
 
 ## Usage
 
-const FbLeads = require('fb-leads')
+    const FbLeads = require('fb-leads')
 
 
-FbLeads({
+    FbLeads({
 
     apiKey :"", // Insert api key (mandatory)
 
@@ -23,11 +23,11 @@ FbLeads({
 
     getFormIds : false
 
-},function(response){
+    },function(response){
 
-// perform operations
+    // perform operations
 
-})
+    })
 
 
 
