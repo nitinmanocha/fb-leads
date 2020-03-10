@@ -1,0 +1,28 @@
+{
+  "name": "fb-leads",
+  "version": "1.0.0",
+  "description": "get fb leads in json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinmanocha/fb-leads.git"
+  },
+  "keywords": [
+    "fb",
+    "leads",
+    "nodejs",
+    "leadgen"
+  ],
+  "author": "https://nitinmanocha.in",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinmanocha/fb-leads/issues"
+  },
+  "homepage": "https://github.com/nitinmanocha/fb-leads#readme",
+  "dependencies": {
+    "fb": "^2.0.0"
+  }
+}
