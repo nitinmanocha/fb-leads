@@ -1,23 +1,26 @@
 # FB-LEADS
 
-> Install the package
+- Install the package
 
-
-### Generate Api Key from Facebook Developer Console
-
+```bash
+$ npm i fb-leads
+```
 
 ## Usage
 
-    const FbLeads = require('fb-leads')
+- Generate Api Key from Facebook Developer Console
 
+````bash
+
+    const FbLeads = require('fb-leads')
 
     FbLeads({
 
-    apiKey :"", // Insert api key (mandatory)
+    apiKey :"",# // Insert api key (mandatory)
 
-    formId:"",  // Insert form id (optional)
+    formId:"", # // Insert form id (optional)
 
-    pageId : "", // Insert pageId (optional)
+    pageId : "",# // Insert pageId (optional)
 
     getLeads : true,
 
@@ -25,13 +28,15 @@
 
     },function(response){
 
-    // perform operations
+    # // perform operations
 
     })
 
+```
 
+### Note:
 
-### Note :
- > While retrieving Form ids -> Insert pageId , set "getFormIds" as true and "getLeads" as false 
+- While retrieving Form ids -> Insert pageId , set "getFormIds" as true and "getLeads" as false
 
- > While retrieving Leads -> Insert formId , set "getLeads" as true and "getFormIds" as false 
+- While retrieving Leads -> Insert formId , set "getLeads" as true and "getFormIds" as false
+````

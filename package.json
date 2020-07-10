@@ -1,6 +1,6 @@
 {
   "name": "fb-leads",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "get fb leads in json",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "fb",
     "leads",
     "nodejs",
-    "leadgen"
+    "leadgen",
+    "Facebook",
+    "ad"
   ],
   "author": "https://nitinmanocha.in",
   "license": "ISC",
